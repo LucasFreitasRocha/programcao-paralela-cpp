@@ -25,7 +25,7 @@ bool verificacao(int matriz[][5])
 	{
 		for (int j = 0; j < 4; j++)
 		{
-				auxSoma += matriz[j][i];
+				auxSoma += abs( matriz[j][i]);
 		}
 		cout << auxSoma <<  " ";
 		if(somaMenor == 0){
